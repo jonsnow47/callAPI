@@ -4,18 +4,36 @@ main {
   text-align: center;
   vertical-align: center;
   line-height: 100vh
-  
 }
 span{
   color:white;
+  text-transform: uppercase;
 }
 body{
+  height:100vh;
+  width: 100%;
   color: white;
   display:flex;
-  align-items: center;
+/*   align-items: center; */
   justify-content:center;
   background: linear-gradient(to bottom right, green, blue);
 }
 h3{
   color: yellow;
+}
+h1{
+  text-align:center;
+  text-decoraton:underline;
+  margin: 20px 0;
+}
+.container{
+  border: 2px solid #d7692d;
+  padding: 3rem;
+  box-shadow: 3px 3px 20px;
+}
+.input{
+  text-transform:uppercase;
+  margin:2rem;
+  padding 0 3rem:
+    color: yellow;
 }
