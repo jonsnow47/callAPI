@@ -20,16 +20,16 @@ const App = ()=>{
   return (
    
     <>
-       <h3> You chose this : <span style={{border:'solid 2px green'}}>{num} </span></h3>
-       <h3> My name is : <span style={{border:'solid 2px blue'}}>{name} </span> </h3>
-       <h3> I have total moves numbering : <span style={{border:'solid 2px orange'}}>{move} </span> </h3>
+      <h1> Pokemon Go</h1>
+       <h3> You chose this : <span >{num} </span></h3>
+       <h3> My name is : <span>{name} </span> </h3>
+       <h3> I have total moves numbering : <span>{move} </span> </h3>
        
       <select value={event} onChange={(event)=> {
       setNum(event.target.value);
       }}>
         <option value="1">1</option>
-        <option value="2">2</option>      
-        <option value="3">3</option>
+        <option value="2">2</option>            <option value="3">3</option>
         <option value="4">4</option>
         <option value="5">5</option>
         <option value="6">6</option>
