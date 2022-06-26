@@ -1,0 +1,19 @@
+main {
+  text-align: center;
+  vertical-align: center;
+  line-height: 100vh
+  
+}
+span{
+  color:white;
+}
+body{
+  color: white;
+  display:flex;
+  align-items: center;
+  justify-content:center;
+  background: linear-gradient(to bottom right, green, blue);
+}
+h3{
+  color: yellow;
+}
